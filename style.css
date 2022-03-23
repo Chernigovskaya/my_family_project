@@ -19,7 +19,7 @@ body {
     list-style-type: none;
     padding: 36px;
     }
-    .cart {
+.cart {
     width: 150%;   
     }
 .top_info {
@@ -321,6 +321,9 @@ body {
         font-size: 16px;
         padding: 6px;
     }
+    .cart {
+        width: 100%;
+    }
 }
 @media (max-width: 768px) {
      .container {
@@ -441,5 +444,8 @@ body {
    .text_copy {
        font-size: 12px;
        padding: 6px; 
+   }
+   .cart {
+       width: 80%;
    }
 }
